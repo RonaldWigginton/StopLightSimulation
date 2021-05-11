@@ -1,0 +1,19 @@
+Consider now a stop light placed at a main intersection of two roads. Road NS runs north and south. Road EW runs east and west and terminates into NS as a T from the west. 
+Both roads, while paved, are only two-lane roads. Travelers on EW approaching the stoplight on NS must turn either north or south. It has been noted by the MO highway department 
+that when a car on EW approaches the intersection, it has a 70% chance of turning south and a 30% chance of turning north.  The average time (or service rate) for a car to clear 
+the intersection heading south is 5 seconds and distributed Poisson. The average service rate for a car to clear the intersection heading north is 8 seconds and is distributed 
+Poisson. Cars are not allowed to make a “right on red after stop” turn. They must wait till they have a green arrow.  Cars on EW arrive at the intersection under a Poisson 
+distribution at the rate of 30 per 15- minute period.  Travelers on NS North bound approaching the stoplight can either pass directly through the light continuing north or make a left turn through the light. 
+The MO highway department notes that as the cars on NS (North Bound) approach EW, they have a 25% chance of turning west and 75% chance of continuing north.  
+Road Rules and Travel Statistics. The average time for a car turning west to clear the intersection is 8 seconds and distributed Poisson. 
+The average time for a car passing through the intersection is 4 seconds and is distributed Poisson. 
+Co Cars wanting to turn west on the strictly green light (no arrow) can do so if there is no oncoming traffic from cars moving through the intersection going south. 
+The Missouri Highway dept has determined that there is a 50% probability that there will be oncoming traffic. 
+If there is oncoming traffic, the car must wait till the next green arrow cycle.  Cars arrive at the intersection under a Poisson distribution at the rate of 30 per 15-minute period. 
+Light Installation and Timing. The Missouri Highway Dept wants to install a light at the intersection of NS and EW roads. 
+The light faces EW will have two arrows one pointing south and one pointing north so that cars may turn either way. 
+The light pointing at NS will have an arrow that stays on for cars turning West on EW then this arrow will turn off and a green light will come on for those cars needing 
+to move on through NS or for West bound cars not finding any oncoming traffic.  The timing genius at MO Highway Dept, Dr. IM Ath (a retired professor of remedial algebra from MWSU)
+has proposed the following timing scheme. A Light Cycle of 5 Minutes (for every 5 minutes) Light facing EW Green for 2 minutes. Light facing NS Green for 3 minutes
+(first 60 seconds left turn arrow).  Create a simulation of the stoplight using the driving rules and the Poisson arrival rates for arrival and turning as described above. 
+Run your simulation for 1000 hours of road time.
