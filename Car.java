@@ -7,13 +7,13 @@ protected int mynum;
 protected int Myid;//this is the unique identifier of my iding event
 protected int type; // 1 = turning 2 = straight for NS or 1 = turning south and 2 turning north for EW
 public Car(int x)
-{ // create the patient object.
+{ // create the Car object.
     timeNline=timeNserver=timeNsystem=0;
     mynum=x;
     Myid=x;
     type = 0;
 }
-public int compareTo(Object o){//the Patient class must have a comparable if we are to use in the queue manager
+public int compareTo(Object o){//the Car class must have a comparable if we are to use in the queue manager
     if(GetNline()>((Car)o).GetNline())return 1;// if time a > time b return 1
     else
     if(GetNline()<((Car)o).GetNline())return -1;//if time a < time b return -1
